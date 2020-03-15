@@ -1,0 +1,31 @@
+{
+  "name": "pokedolar.js",
+  "version": "1.0.0",
+  "description": "A bot that posts on Facebook the current exchange rate from USD to BRL and show a pokemon with that value",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startDev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepzS2/pokedolar.js.git"
+  },
+  "keywords": [
+    "pokedolar"
+  ],
+  "author": "@Moutella but made in nodeJS by me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepzS2/pokedolar.js/issues"
+  },
+  "homepage": "https://github.com/deepzS2/pokedolar.js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "fb": "^2.0.0"
+  }
+}
